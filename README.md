@@ -10,18 +10,34 @@ This project is a **machine learning-based API** that predicts whether an insura
 
 ## 📂 Project Structure  
 /policy-acceptance-prediction │── /model_training # Code for training AI Model
+
 │ ├── train_model.py # Train the TensorFlow model
+
 │ ├── DATASET_10000.csv # Training dataset
+
 │ ├── preprocessor_new.pkl # Preprocessing pipeline
+
 │ ├── policy_acceptance_tf_nn_model_new.h5 # Trained model
+
 │── /backend # Flask API
+
 │ ├── app.py # Flask API for predictions
+
 │── /postman # Postman collection for API testing
+
 │ ├── API_Collection.json
+
 │ ├── Postman_Environment.json (Optional)
+
 │── requirements.txt # Python dependencies
+
 │── README.md # Project documentation
+
 │── .gitignore # Ignore unnecessary files
+
+## Requirements
+- Python 3.8+
+- Libraries: Flask, TensorFlow, Pandas, Scikit-learn
 
 ### 1️⃣ Clone the Repository  
 ```bash
@@ -42,8 +58,11 @@ python model.py
 
 This will:
 ✔️ Preprocess the dataset
+
 ✔️ Train a Neural Network
+
 ✔️ Save the trained model (.h5) and preprocessor (.pkl)
+
 
 ## 🚀 Running the API
 1. Navigate to the folder where all the codes are present.
@@ -54,10 +73,10 @@ This will:
 3. The API will start at http://127.0.0.1:5000/   
 
 ## 🛠️ Testing with Postman
-Open Postman
-Import the file postman/Tensorflow.postman_collection.json
-Send a POST request to http://127.0.0.1:5000/predict
-Check the response! 🚀
+1. Open Postman
+2. Import the file postman/Tensorflow.postman_collection.json
+3. Send a POST request to http://127.0.0.1:5000/predict
+4. Check the response! 🚀
 
 ## Contributing
 Contributions are welcome! If you'd like to contribute to this project, please fork the repository and create a pull request.
