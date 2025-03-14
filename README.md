@@ -9,7 +9,9 @@ This project is a **machine learning-based API** that predicts whether an insura
 ✔️ Includes a **Postman collection** for easy testing  
 
 ## 📂 Project Structure  
-/policy-acceptance-prediction │── /model_training # Code for training AI Model
+/policy-acceptance-prediction 
+
+│ │── /model_training # Code for training AI Model
 
 │ ├── train_model.py # Train the TensorFlow model
 
@@ -46,7 +48,7 @@ cd policy-acceptance-prediction
 ````
 
 ## DataSet
-Inside the repository, there is a "DATASET_10000.csv" file with 10000 randomly data generated from python.
+Inside the repository, there is a **DATASET_10000.csv** file with 10000 randomly data generated from python.
 
 ## 🧠 Training the Model
 If you want to train the model from scratch, run:
@@ -57,6 +59,7 @@ python model.py
 ````
 
 This will:
+
 ✔️ Preprocess the dataset
 
 ✔️ Train a Neural Network
