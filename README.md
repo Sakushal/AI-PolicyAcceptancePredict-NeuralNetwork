@@ -25,17 +25,17 @@ This project is a **machine learning-based API** that predicts whether an insura
 
 │ ├── app.py # Flask API for predictions
 
-│── /postman # Postman collection for API testing
+│ │── /postman # Postman collection for API testing
 
 │ ├── API_Collection.json
 
 │ ├── Postman_Environment.json (Optional)
 
-│── requirements.txt # Python dependencies
+│ │── requirements.txt # Python dependencies
 
-│── README.md # Project documentation
+│ │── README.md # Project documentation
 
-│── .gitignore # Ignore unnecessary files
+│ │── .gitignore # Ignore unnecessary files
 
 ## Requirements
 - Python 3.8+
